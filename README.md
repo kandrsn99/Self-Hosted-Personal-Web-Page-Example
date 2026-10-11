@@ -9,7 +9,7 @@ In order to install this repository from the command line you will need to get t
 
 Other machines will vary, but I will treat this as if we were using BSD. Otherwise, the process remains the same across operating systems, just different command styles. In  any case, we use 'git' to download this repositorty to your machine for editing. Don't forget to add your pictures, documentation, or hyper-links for your personal benefit.
 
-> git https://github.com/kandrsn99/Personal-Web-Page.git
+> git https://github.com/kandrsn99/Self-Hosted-Personal-Web-Page-Example.git
 
 Assuming you are ready for set up, we must install NGINX on our machine to serve the static HTML files. 
 
@@ -26,7 +26,7 @@ Whatever changes you may make to the NGINX configuration or static file path can
 
 > service nginx reload
 
-I included a template NGINX configuration file https://github.com/kandrsn99/Personal-Web-Page/blob/main/nginx.conf that you may use, please read through it carefully. Remember, the exact file paths matter during the initial set up. Typically, anything that came with installation will be in the path /usr/local/etc/nginx.
+I included a template NGINX configuration file https://github.com/kandrsn99/Self-Hosted-Personal-Web-Page-Example.git that you may use, please read through it carefully. Remember, the exact file paths matter during the initial set up. Typically, anything that came with installation will be in the path /usr/local/etc/nginx.
 
 You may check your HTML via web hosting service on http://localhost:80/ or the server address on http://address:80/
 
